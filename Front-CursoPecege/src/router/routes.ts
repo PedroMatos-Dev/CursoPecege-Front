@@ -14,6 +14,18 @@ export const routes = [
     path: '/status/insert',
     name: 'status-insert',
     component: () => import(/* webpackChunkName: "status" */ '@/pages/status/StatusFormPage.vue')
+  },
+  {
+    path: '/specialty',
+    name: 'specialty-list',
+    component: () =>
+      import(/* webpackChunkName: "specialty" */ '@/pages/specialty/SpecialtyListPage.vue')
+  },
+  {
+    path: '/specialty/insert',
+    name: 'specialty-insert',
+    component: () =>
+      import(/* webpackChunkName: "specialty" */ '@/pages/specialty/SpecialtyFormPage.vue')
   }
 ]
 

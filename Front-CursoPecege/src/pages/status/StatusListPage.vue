@@ -119,4 +119,3 @@ const deleteListItem = async (item: IStatus) => {
     </template>
   </default-template>
 </template>
-
